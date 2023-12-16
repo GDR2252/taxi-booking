@@ -1,0 +1,61 @@
+.footer-contain {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  border-top: 1px solid;
+  .footer-content {
+    background-color: rgb(255, 255, 255);
+    // padding: 50px;
+  }
+  .header-logo {
+    color: black;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 600;
+    // text-align: center;
+  }
+  .footer-main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 100px;
+    // margin: auto;
+  }
+  .footer-button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .footer-title {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #151515;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding-bottom: 12px;
+    }
+  }
+}

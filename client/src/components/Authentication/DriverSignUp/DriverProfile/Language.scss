@@ -1,0 +1,47 @@
+.language-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.container {
+  height: 620px;
+  width: 600px;
+  background-color: #eee;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.language-para {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.language-field {
+  display: flex;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+.main-text {
+  display: flex;
+  padding-left: 40px;
+}

@@ -1,0 +1,23 @@
+export class clientRoutes {
+  static home = "/";
+  static riderSignUp = "/rider/signup";
+  static driverSignUp = "/driver/signup";
+  static riderLogin = "/rider/login";
+  static riderMobileVerification = "/rider/mobile_verification";
+  static driverMobileVerification = "/driver/mobile_verification";
+  static riderLoginMobileVerification = "/rider/login/mobile_verification";
+  static signup_main_screen = "/signup/main_screen";
+  static signin_main_screen = "/signin/main_screen";
+  static riderProfile = "/rider/profile";
+  static driverProfileDetail = "/driver/profile_detail";
+  static driverProfile = "/driver/profile";
+  static licence = "/step/1";
+  static pancard = "/step/2";
+  static language = "/step/3";
+  static profile = "/step/4";
+  static aadharcard = "/step/5";
+  static vehicle = "/step/6";
+  static driverLogin = "/driver/login";
+  static driverLoginMobileVerification = "/driver/mobile_verification";
+  static help = "/help";
+}

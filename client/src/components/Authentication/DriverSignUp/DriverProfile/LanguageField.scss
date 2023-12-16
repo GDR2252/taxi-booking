@@ -1,0 +1,30 @@
+.language-autocomplete {
+  width: 100%;
+  margin-bottom: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .MuiOutlinedInput-root {
+    height: 50px;
+    width: 520px;
+  }
+
+  .selector-input {
+    fieldset {
+      border-color: black;
+      border-radius: 5px;
+    }
+
+    &:hover fieldset {
+      border-color: none !important;
+    }
+
+    input {
+      font-family: "montserrat-light";
+      color: var(--autocomplete-selector_ipnut-text-color);
+      font-size: 1rem;
+      padding-left: 10px;
+    }
+  }
+}

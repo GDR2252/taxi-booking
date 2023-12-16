@@ -1,0 +1,49 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhushiDayani17/dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhushiDayani17/dashboard/issues"
+  },
+  "homepage": "https://github.com/KhushiDayani17/dashboard#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.6",
+    "@types/nodemailer": "^6.4.12",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.20",
+    "@types/bcryptjs": "^2.4.5",
+    "@types/cors": "^2.8.15",
+    "@types/jest": "^29.5.5",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/mongoose": "^5.11.97",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.6",
+    "ts-mongoose": "^0.0.24"
+  }
+}

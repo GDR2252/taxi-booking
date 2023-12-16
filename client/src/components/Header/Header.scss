@@ -1,0 +1,55 @@
+.header-main-contain {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1000;
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #fbfbfb;
+    border-radius: 0;
+    border: none;
+    padding: 0 100px;
+    .header-nav-contain {
+      display: flex;
+      align-items: center;
+      .header-logo {
+        color: black;
+        font-size: 30px;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-weight: 600;
+        text-align: center;
+      }
+      .header-nav {
+        display: flex;
+        list-style-type: none;
+        gap: 35px;
+      }
+    }
+    .header-buttons {
+      display: flex;
+      gap: 10px;
+
+      .login-button {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+        width: 130px; 
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+  }
+}

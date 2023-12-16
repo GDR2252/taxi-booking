@@ -1,0 +1,47 @@
+.main-screen-content {
+  .signup-header-content {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1000;
+  }
+
+  .signup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    border-radius: 0;
+    border: none;
+    padding: 0 100px;
+  }
+
+  .header-logo {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 600;
+    text-align: center;
+  }
+  .main-text {
+    padding-bottom: 40px;
+  }
+  .main-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 250px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+  }
+  .border {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+}

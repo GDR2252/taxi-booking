@@ -1,0 +1,46 @@
+.what-we-can-do-contain {
+  .what-we-can-do-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    gap: 25px;
+  }
+
+  .images-container {
+    display: flex;
+  }
+
+  .image-item {
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  img {
+    width: 380px; /* Adjust the width as per your requirement */
+    height: auto; /* Adjust the height as per your requirement */
+  }
+
+  .title-text {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .what-text {
+    font-size: 32px;
+    line-height: 1.2973;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #151515;
+    padding-top: 100px;
+    letter-spacing: 0.05rem;
+  }
+}

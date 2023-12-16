@@ -1,0 +1,103 @@
+.driver-profile-main-content {
+  .profile-content {
+    padding-top: 80px;
+
+    .text {
+      display: flex;
+      justify-content: center;
+      line-height: 30px;
+      color: #000000;
+      font-size: 23px;
+      padding-top: 40px;
+      font-weight: 500;
+      padding-right: 115px;
+    }
+    .text-profile {
+      display: flex;
+      justify-content: center;
+      line-height: 30px;
+      color: #000000;
+      font-size: 15px;
+      padding-top: 15px;
+      padding-right: 40px;
+    }
+    .form-content-signup {
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+    .form-input {
+      width: 300px;
+      height: 30px;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #eee !important;
+      color: black;
+      border: none;
+      font-size: 16px;
+    }
+  }
+  .order-signup {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  .order-button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .name-profile-input {
+    // width: 100%;
+    margin-bottom: 32px;
+    padding: 10px 0 0px;
+
+    fieldset {
+      border: none;
+    }
+    &:hover fieldset {
+      border-color: none;
+      background: none;
+    }
+    .Mui-focused {
+      border-color: none !important;
+    }
+
+    .MuiOutlinedInput-root {
+      height: 30px;
+      width: 320px;
+    }
+
+    input {
+      padding-left: 22px;
+      font-family: "montserrat-light";
+      color: black;
+      font-size: 1.1rem;
+      background-color: #eee;
+      border-radius: 5px;
+    }
+
+    .selector-lable-name {
+      color: var(--autocomplete-selector_lable-color);
+      font-family: "montserrat-light";
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #eee;
+      font-size: 1.2rem;
+    }
+  }
+}
