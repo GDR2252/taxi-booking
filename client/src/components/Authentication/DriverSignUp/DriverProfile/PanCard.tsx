@@ -71,8 +71,8 @@ const PanCard = () => {
           ) : (
             <div className="image-name">{image}</div>
           )}
-          <div className="aadhar-signup" onClick={handleSubmit}>
-            <button className="aadhar-button" type="submit">
+          <div className="aadhar-signup-button" onClick={handleSubmit}>
+            <button className="aadhar-button-link" type="submit">
               Continue
             </button>
           </div>

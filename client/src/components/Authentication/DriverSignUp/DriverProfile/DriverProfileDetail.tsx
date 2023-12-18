@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../Header";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link, useNavigate } from "react-router-dom";
@@ -22,22 +22,25 @@ const DriverProfileDetail = () => {
   const profile = useSelector(driverDetail);
   const navigate = useNavigate();
 
-  console.log("profile", profile);
   const retrievedUserData = JSON.parse(localStorage.getItem("userData") as any);
+
   const userId = retrievedUserData?._id;
+
+  const values: { [key: string]: any } = {
+    user_id: userId,
+  };
+
+  profile.forEach((detail: any, index: number) => {
+    for (const key in detail) {
+      if (detail.hasOwnProperty(key)) {
+        values[`${key}`] = detail[key];
+      }
+    }
+  });
+  console.log("values", values);
+
   const handleSubmit = async () => {
     try {
-      const values = {
-        user_id: userId,
-        licence_number: profile[0].licence_number,
-        pancard_number: profile[1].pancard_number,
-        pancard_image: profile[1].pancard_image,
-        language: profile[2].language,
-        profile_photo: profile[3].profile_photo,
-        addhar_card: profile[4].addhar_card,
-        addharCard_image: profile[4].addharCard_image,
-        vehicle_permit: profile[5].vehicle_permit,
-      };
       const res = await AuthApiServices.driverDetail(values as any);
       if (res?.data.success && res?.data.response_code === "CREATE_SUCCESS") {
         navigate(clientRoutes.driverLogin);

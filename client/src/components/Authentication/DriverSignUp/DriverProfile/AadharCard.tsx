@@ -75,9 +75,9 @@ const AadharCard = () => {
           ) : (
             <div className="image-name">{image}</div>
           )}
-          <div className="aadhar-signup">
+          <div className="aadhar-signup-button">
             <button
-              className="aadhar-button"
+              className="aadhar-button-link"
               type="submit"
               onClick={handleSubmit}
             >
